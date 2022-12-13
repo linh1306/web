@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+p {
+    margin: 0px;
+    text-align: center;
+    font-family: Calibri;
+}
+
+
+.f-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app {
+    width: 800px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    
+}
+
+.block {
+    width: 190px;
+    height: 50px;
+    background-color: #8598cc;
+    color: azure;
+    font-family: sans-serif;
+    font-weight: 1;
+}
+
+.text {
+    min-height: 130px;
+    justify-content: space-around;
+}
+
+.app h2 {
+    /* font-size: 45px; */
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.app h2 b {
+    color: #00aeef;
+    font-weight: 600;
+}
+
+.button {
+    flex-direction: row;
+}
+
+.button__1 {
+    margin-top: 25px;
+    width: 100px;
+    height: 35px;
+    background-color: #2d3032;
+    color: azure;
+    border-radius: 3px;
+    margin: 20px 10px 0px;
+}
+
+.button__1:hover {
+    background-color: #00aeef;
+    cursor: pointer;
+}
+
+
+
+
+.best-shared {
+    margin: 20px auto;
+    text-align: center;
+    width: 800px;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+.best-shared h2 {
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.best-shared h2 strong {
+    color: #00aeef;
+    font-weight: 600;
+}
